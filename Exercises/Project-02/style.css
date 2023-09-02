@@ -1,0 +1,52 @@
+        
+        @font-face {
+            font-family: 'Nemo';
+            src: url('fonts/FindetNemo-KVxD.ttf') format('truetype');
+            font-weight: normal;
+            font-size: normal;
+        }
+        header{
+            background-image: linear-gradient(to bottom, #07026b, #011AB5, #182CFD);
+            padding: 2px 0px 0px 5px;
+            margin: 5px;
+            border-radius: 0px 0px 9px 9px;
+            /*height: 150px;*/
+        }
+        a{
+            text-decoration: none;
+            /* font: bold, 1.2em, Arial,serif; */
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: #fdfd38d5;
+            margin: 0px;
+            padding: 18px 8px 5px 8px; 
+        }
+        a:hover{
+            background-color: #011AB5;
+        }
+        a:active{
+            color: #5b67b6;
+        }
+        nav{
+            margin: 14px;
+            padding: 0px 0px 4px 0px;
+        }
+        h1{
+            margin: 0px;
+            text-align: center;
+            color: #ffff41d5;
+            font-family: Nemo,'Times New Roman', Times, serif;
+            font-size: 4em;
+        }
+        body{
+            background-color: #5b67b6;
+            margin: 0px;
+        }
+/* Main */
+
+audio{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+}

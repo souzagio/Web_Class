@@ -8,34 +8,61 @@
         body{
             font-family: 'Times New Roman', Times, serif;
             background-color: dimgray;
+            margin: 0px;
         }
         a{
             color: black;
+            padding: 5px;
+            text-decoration: none;
          }
-        
+        h1{
+            /*padding: 7px;*/
+            margin: 3px;
+        }
         header{
             background-color: white;
             padding: 10px;
             margin: 10px;
         }
         main{
-            background-color: white;
+            background-color: rgb(180, 175, 175);
             padding: 10px;
             margin: 10px;
+            border-radius: 20px;
         }
         nav{
             background-color: rgba(105, 105, 105, 0.918);
             color: white;
             font-weight: bold;
+            padding: 5px;
+            box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.274);
         }
         nav > a:active
         {
             color: yellow;
         }
         a:hover{
-            color: red;
+            color: white;
+            background-color: rgb(128, 128, 128);
         }
-       
+        article{
+            background-color: rgb(218, 217, 217);
+            border-radius: 5px;
+        }
+       article > aside{
+        background-color: gray;
+        border-radius: 0px 0px 5px 5px;
+       }
+       footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 7px;
+        font-size: 1.2em;
+       }
+       footer > p{
+        margin: 0px;
+       }
     </style>
 </head>
 <body>
@@ -52,8 +79,11 @@
     <main>
         <section id="assuntos">
             <article>
-                <h2>Notícia sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga expedita dolore iste itaque commodi beatae ducimus repudiandae, laudantium ad nostrum maiores quae, veniam explicabo repellat, temporibus odit doloremque. Incidunt, unde.</p>
+                <h2 >Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga expedita dolore iste itaque commodi beatae ducimus repudiandae, laudantium ad nostrum maiores quae, veniam explicabo repellat, temporibus odit doloremque. Incidunt, unde.</p>
+                <aside>
+                    <p>Texto de José Jr.</p>
+                </aside>
             </article>
         </section>
         <section id="esportes">
@@ -64,7 +94,7 @@
         </section>
     </main>
     <footer>
-
+        <p>Desenvolvido por Dev. Gio Souza.</p>
     </footer>
 </body>
 </html>
