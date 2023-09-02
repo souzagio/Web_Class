@@ -1,0 +1,30 @@
+@charset "UFT-8";
+/*
+Utilizar ID somente para um elemento.
+Class quando temos mais de um elemento.
+
+*/
+body{
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: darkblue;
+}
+h1#main{
+    color: lightcoral;
+    text-align: center;
+    background-color: lightgreen;
+}
+.basico{
+    color: lightcoral;
+    background-color: rgba(144, 238, 144, 0.562);
+    font-weight: bold;
+}
+h2{
+    color: darkgreen;
+}
+p{
+    color: lightslategray;
+    text-align: justify;
+}
