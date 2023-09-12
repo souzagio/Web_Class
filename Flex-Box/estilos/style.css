@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(163, 166, 168);
+}
+
+main{
+    display: flex;
+    padding: 5px;
+    
+}
+
+.menu{
+    height: 80vh;
+    width: 40vw;
+    border: 2px solid red;
+    z-index: 2;
+    transform: translateX(50x 50px);
+}
+
+.conteudo{
+    display: flex;
+    border: 2px solid blue;
+    height: 90vh;
+    width: 80vw;
+    z-index: -1;
+}
+
