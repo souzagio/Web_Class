@@ -6,25 +6,61 @@ html{
     background-color: rgb(163, 166, 168);
 }
 
+header{
+    border: 3px solid green;
+    height: 200px;
+}
+
 main{
     display: flex;
-    padding: 5px;
+    padding: 2px;
     
 }
 
 .menu{
     height: 80vh;
-    width: 40vw;
+    width: 200px;
     border: 2px solid red;
     z-index: 2;
-    transform: translateX(50x 50px);
 }
 
 .conteudo{
     display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid blue;
     height: 90vh;
-    width: 80vw;
+    width: 60vw;
     z-index: -1;
 }
 
+.foto{
+    border: 2px solid black;
+    box-shadow: inset 0px 0px 25px white;
+    height: 100px;
+    width: 100px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.text1{
+    border: 2px solid rgb(28, 85, 143);
+    height: 80px;
+    width: 450px;
+    margin-left: 3px;
+    border-radius: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.text1 > h1{
+    
+}
+
+footer{
+    height: 120px;
+    width: 99vw;
+    border: 2px solid slateblue;
+    margin-bottom: 3px;
+}
